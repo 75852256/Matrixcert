@@ -32,21 +32,33 @@ form{
     width: 200px;
 }
 input, textarea{
-    border: 20;
-    outline: none;
-    width: 180px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 2cm;
+    color:rgb(0, 0, 0)
+}
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    
 }
 .center-content{
     text-align: center;
 }
 /*boton*/
 .button {
-    background-color: rgb(255, 255, 255); /*color de fondo del boton*/
-    color: rgb(0, 0, 0); /*color de fuente*/  
-    padding: 1px 72px; /*tamaño*/
-    text-align: center;
-    font-size: 12px;
-    cursor: pointer;
+    background: beige;
+    color: black;
+    padding: 20px;
 }
+.boton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
 /*........*/    
 
