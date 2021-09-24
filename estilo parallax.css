@@ -1,0 +1,29 @@
+/*aqui damos dimencion total de ancho y altura*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*aqui le indicamos al html que la section tiene dimenciones de toda la londitud de la pantalla*/
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+/*estilos para nuestro efecto parallax: fixed = daja estatica la imagen de de fondo - no-repeat = evita 
+repetir la imagen en toda la pantalla (imagenes pequeñas) 50% 50%* permite centar la imagen de fondo*/
+/*cover = fondo tipo de portada*/
+.parallax {
+    background: fixed rgb(255, 255, 255) no-repeat 50% 50%;
+    background-size: cover;
+/*aqui estoy llamando las imagenes para cada secion*/    
+}
+/*#seccion01 {
+    background-image: url(CNC.jpg);
+}*/
+/*#seccion02 {
+    background-image: url(img/principal_cuatro.jpg);
+}*/
