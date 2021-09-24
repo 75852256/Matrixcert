@@ -1,2 +1,2 @@
 # Matrixcert
-Se trata de matriceria
+Se trata de matricería
