@@ -1,0 +1,69 @@
+#servicios {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Planeamiento {
+    margin-right:900px;
+    margin-left: 100px;
+    padding-bottom: 30px; /*Brinda espacio superior*/
+    padding-top: 40px; /*Brinda espacio inferior*/
+    padding-left: 40px; /*Brinda espacio inferior*/
+    padding-right: 30px;
+    background-color: rgba(2, 1, 1, 0.349);/*Brinda color al fondo*/
+    background-size:contain;
+    color:black;
+    font-size: 14px;
+    text-align: center;
+    border: 300px  lightgray; /*Grosor, estilo y color del borde del contenedor*/
+    border-radius: 10px;
+    position: relative;
+    top: 78px; left: 50px;
+    align-self:flex-start;
+
+    
+}
+.Fabricacion {
+
+    margin-right: 1200px;
+    margin-left: 10px;
+    padding-bottom: 75px; /*Brinda espacio superior*/
+    padding-top: 3px; /*Brinda espacio inferior*/
+    padding-left: 40px; /*Brinda espacio inferior*/
+    padding-right: 50px;
+    background-size: contain; /*proporcion de la imagen de la bolita*/
+    background-color: rgba(2, 1, 1, 0.349);
+    color: black;
+    font-size: 14px;
+    text-align:center;
+    border: 5px  lightgray;; /*Grosor, estilo y color del borde del contenedor*/
+    border-radius: 10px;
+    position: relative;
+    top: -600px; left: 650px;
+    align-self:flex-start;
+}
+.Realizacion {
+
+    margin-right: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 150px; /*Brinda espacio superior*/
+    padding-top: 0px; /*Brinda espacio inferior*/
+    padding-left: 40px; /*Brinda espacio inferior*/
+    padding-right: 50px;
+    background-size: contain; /*proporcion de la imagen de la bolita*/
+    background-color: rgba(2, 1, 1, 0.349);
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    border: 5px  lightgray;; /*Grosor, estilo y color del borde del contenedor*/
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s; /*Esta parte le da sensibilidad a la bolita*/
+    cursor:pointer;/*puntero*/
+    top: -1280px; left: 1060px;
+    align-self:flex-start;
+    
+}
+
