@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Matrixcert'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB24059FD23340909FA398E7428715F6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFCADD7280E348D796ECD04FBEB60FD7 }}
           package: .
